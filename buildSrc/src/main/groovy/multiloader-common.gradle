@@ -42,6 +42,28 @@ repositories {
         name = 'BlameJared'
         url = 'https://maven.blamejared.com'
     }
+
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+
+    maven {
+        name = "Curios, Caelus"
+        url = "https://maven.theillusivec4.top/"
+    }
+
+    maven {
+        name "KosmX's maven"
+        url 'https://maven.kosmx.dev/'
+    }
+
+    maven {
+        name = 'Geckolib'
+        url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+    }
 }
 
 // Declare capabilities on the outgoing configurations.

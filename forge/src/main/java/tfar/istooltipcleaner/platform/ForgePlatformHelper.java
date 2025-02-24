@@ -1,6 +1,6 @@
-package com.example.examplemod.platform;
+package tfar.istooltipcleaner.platform;
 
-import com.example.examplemod.platform.services.IPlatformHelper;
+import tfar.istooltipcleaner.platform.services.IPlatformHelper;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.loading.FMLLoader;
 

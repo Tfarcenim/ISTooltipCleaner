@@ -48,6 +48,15 @@ sourceSets.main.resources.srcDir 'src/generated/resources'
 dependencies {
     compileOnly project(":common")
     annotationProcessor("org.spongepowered:mixin:0.8.5-SNAPSHOT:processor")
+
+    modImplementation ("software.bernie.geckolib:geckolib-forge-$minecraft_version:$geckolib")
+    modImplementation ("top.theillusivec4.curios:curios-forge:$curios")
+    modImplementation ("top.theillusivec4.caelus:caelus-forge:$caelus")
+
+    modImplementation ("dev.kosmx.player-anim:player-animation-lib-forge:$project.player_animator")
+
+    modImplementation "curse.maven:irons-spells-n-spellbooks-855414:6054196"
+
 }
 
 jar {

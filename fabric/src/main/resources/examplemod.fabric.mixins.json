@@ -7,7 +7,7 @@
     "mixins": [
     ],
     "client": [
-        "MixinTitleScreen"
+      "tfar.istooltipcleaner.mixin.MixinTitleScreen"
     ],
     "server": [
     ],
